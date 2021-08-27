@@ -1,2 +1,2 @@
 # SymfonyVueVuetify
-Base Project
+Base Project for symfony5
