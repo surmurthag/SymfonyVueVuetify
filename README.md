@@ -17,10 +17,10 @@ Installez [Symfony binaire](https://symfony.com/download) ,  puis: [node js ](ht
 # Create Symfony application in symfony-vuetify directory
 $ symfony new --full SymfonyVueVuetify
 
-$ cd symfony-vuetify
+$ cd SymfonyVueVuetify
 
 # Install PHP dependencies
-$ composer require symfony/webpack-encore-bundle
+$ composer require symfony/webpack-encore-bundle"1.11.*"
 
 # Install JS dependencies
 $ yarn install
