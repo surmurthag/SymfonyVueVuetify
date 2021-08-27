@@ -1,0 +1,5 @@
+body {
+    background-color: chartreuse;
+}
+
+[v-cloak] { display: none; }
