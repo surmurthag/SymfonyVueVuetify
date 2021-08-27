@@ -27,7 +27,7 @@ $ yarn install
 
 
 
-#Ajoutez la ligne suivante dans webpack.config.js:
+# Ajoutez la ligne suivante dans webpack.config.js:
 
 <pre class="  language-javascript"><code class="  language-javascript">Encore
 
@@ -49,7 +49,7 @@ $ yarn add vue vue-loader vue-template-compiler --dev
 $ yarn add vue-router vuetify
 
 
-#Modifiez assets/app.js  avec le contenu suivant
+# Modifiez assets/app.js  avec le contenu suivant
 
 <pre class="  language-javascript"><code class="  language-javascript"><span class="token keyword">import</span> <span class="token string">'./styles/app.css'</span><span class="token punctuation">;</span>
 
@@ -127,7 +127,7 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span>
 </span></code></pre>
 
-#Créer un VueController dans src/Controller/VueController.php:
+# Créer un VueController dans src/Controller/VueController.php:
 
 <pre class="  language-php"><code class="  language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 
@@ -169,11 +169,11 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 {% endblock %}
 </code></pre>
 
-#Notez l’utilisation de directive, qui nous permet de masquer l’application Vue.js pendant le chargement, à l’aide d’une seule ligne CSS dans assets/styles/app.css:
+# Notez l’utilisation de directive, qui nous permet de masquer l’application Vue.js pendant le chargement, à l’aide d’une seule ligne CSS dans assets/styles/app.css:
 
 <pre class="  language-css"><code class="  language-css"><span class="token selector">[v-cloak]</span> <span class="token punctuation">{</span> <span class="token property">display</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 
-#Enfin, créez le composant Vue.js référencé dans notre routeur, dans assets/components/Hom.vue:
+# Enfin, créez le composant Vue.js référencé dans notre routeur, dans assets/components/Hom.vue:
 
 <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>v-alert</span>
@@ -192,7 +192,7 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 </code></pre>
 
-#Pour pouvoir tester votre application localement sans installer de base de données (c’est-à-dire. MySQL ou PostgreSQL), décommentez la variable d’environnement DATABASE_URL pour SQLite dans votre fichier .env et commentez celui de PostgreSQL 
+# Pour pouvoir tester votre application localement sans installer de base de données (c’est-à-dire. MySQL ou PostgreSQL), décommentez la variable d’environnement DATABASE_URL pour SQLite dans votre fichier .env et commentez celui de PostgreSQL 
 
 <pre class="  language-bash"><code class="  language-bash"><span class="token assign-left variable">DATABASE_URL</span><span class="token operator">=</span><span class="token string">"sqlite:///%kernel.project_dir%/var/data.db"</span>
 <span class="token comment"># DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name?serverVersion=5.7"</span>
