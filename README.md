@@ -20,7 +20,7 @@ $ symfony new --full SymfonyVueVuetify
 $ cd SymfonyVueVuetify
 
 # Install PHP dependencies
-$ composer require symfony/webpack-encore-bundle"1.11.*"
+$ composer require symfony/webpack-encore-bundle
 
 # Install JS dependencies
 $ yarn install
